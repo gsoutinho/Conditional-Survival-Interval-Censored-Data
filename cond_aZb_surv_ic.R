@@ -38,6 +38,9 @@ cond_aZb_surv_ic<- function(L, R, T, Delta, a, b, times, method='Turnbull'){
   }
 }
 
+#-------------------------------------------------------------------------------
+#conditional_turnbull:
+#-------------------------------------------------------------------------------
 turnbull_marginal_em_maximal <- function(L, R, tol = 5e-7,
                                          max_iter = 10000,
                                          init = c("uniform", "compatible"),
@@ -289,6 +292,8 @@ conditional_survival_aZb_manuscript_from_corrected_fit <- function(fit,
   )
 }
 
+#-------------------------------------------------------------------------------
+#conditional_beran estimator:
 #-------------------------------------------------------------------------------
 
 midpoint_conditional_survival <- function(LZ, RZ, Tobs, Delta,
