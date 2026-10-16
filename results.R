@@ -1,11 +1,3 @@
-library(xgboost)
-library(randomForestSRC)
-library(survival)  
-library(mboost)
-library(survivalsvm)
-
-setwd("C:/Users/AEFH.DESKTOP-0EF1DJQ/Desktop/___1_Research/________23.4_JSS_icSurvML/2_R codes/R codes_7_revised_all")
-
 load('breastCancer.RData')
 
 breastCancer[, c("rectime", "censrec", "survtime", "censdead", "left_rec", 
