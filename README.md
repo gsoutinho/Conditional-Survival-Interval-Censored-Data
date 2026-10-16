@@ -18,7 +18,3 @@ source("cond_aZb_surv_ic.R")
 ```
 
 See `results.R` for complete examples.
-
-## Related software
-
-These functions will be included in the R package `icSurvML`, which provides a unified framework for the analysis of interval-censored survival data.
