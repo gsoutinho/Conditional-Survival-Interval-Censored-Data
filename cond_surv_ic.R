@@ -28,7 +28,7 @@ cond_surv_ic<- function(L, R, Z, z0, times, method='Turnbull', h = NULL,
 }
 
 #-------------------------------------------------------------------------------
-#conditional_turnbull_survival_maximal (funcoes):
+#conditional_turnbull_survival_maximal:
 #-------------------------------------------------------------------------------
 
 ## Conditional Turnbull estimator using maximal intersections.
