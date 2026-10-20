@@ -1,3 +1,6 @@
+source("cond_surv_ic.R")
+source("cond_aZb_surv_ic.R")
+
 load('breastCancer.RData')
 
 breastCancer[, c("rectime", "censrec", "survtime", "censdead", "left_rec", 
